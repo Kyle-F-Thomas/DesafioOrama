@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4a999e</color>
+    <color name="primaryVariant">#4a999e</color>
+
+    <color name="secondary">#FF03DAC5</color>
+    <color name="secondaryVariant">#FF018786</color>
+
+    <color name="activeFundItem">#8BC34A</color>
+    <color name="inactiveFundItem">#F44336</color>
+</resources>

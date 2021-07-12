@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fundRootView"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fundItemHeight"
+    android:layout_marginTop="@dimen/smallMargin"
+    android:layout_marginStart="@dimen/defaultMargin"
+    android:layout_marginEnd="@dimen/defaultMargin"
+    android:layout_marginBottom="@dimen/smallMargin"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/fundColor"
+            android:layout_width="8dp"
+            android:layout_height="0dp"
+            android:background="?attr/colorSecondary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtFundName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/defaultMargin"
+            android:layout_marginBottom="@dimen/defaultMargin"
+            android:layout_toStartOf="@+id/txtFundIncome"
+            android:layout_toLeftOf="@+id/txtFundIncome"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="@integer/linesFundName"
+            android:padding="@dimen/defaultPadding"
+            android:textColor="?attr/colorSecondaryVariant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/txtFundIncome"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/fundColor"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/loremIpsumfundName" />
+
+        <TextView
+            android:id="@+id/txtFundIncome"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/defaultPadding"
+            android:paddingEnd="@dimen/defaultPadding"
+            app:layout_constraintBottom_toTopOf="@+id/txtFundMinimumApplication"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/txtFundName"
+            app:layout_constraintTop_toTopOf="@+id/txtFundName"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="@string/loremIpsumIncome" />
+
+        <TextView
+            android:id="@+id/txtFundMinimumApplication"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="start|center_vertical"
+            android:lines="@integer/linesFundMinimumApplication"
+            android:paddingStart="@dimen/defaultPadding"
+            android:paddingEnd="@dimen/defaultPadding"
+            app:layout_constraintBottom_toBottomOf="@+id/txtFundName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txtFundName"
+            app:layout_constraintTop_toBottomOf="@+id/txtFundIncome"
+            tools:text="@string/loremIpsumMinimumApplication" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

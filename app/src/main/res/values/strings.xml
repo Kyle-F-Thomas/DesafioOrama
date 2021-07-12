@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Órama</string>
+
+    <string name="fundsName">Fundos</string>
+    <string name="dummy">%1$s</string>
+
+    <string name="tabTopFunds">Top Fundos</string>
+    <string name="tabFundsList">Lista de fundos</string>
+
+    <string name="menuFilterTitle">Filtro</string>
+    <string name="menuFilterIncludeClosed">Fechadas</string>
+    <string name="menuAboutTitle">Sobre</string>
+
+    <string name="dialogAbout"><b>Versão:</b> %1$s</string>
+
+    <string name="fundItemIncome"><b>%1$s</b> (%2$s)</string>
+    <string name="fundItemMinimumApplication"><b>Aplicação mínima \n%1$s</b></string>
+
+    <string name="refreshData">Atualizando dados…</string>
+    <string name="refreshDataProgress">Atualizando dados - etapa (%1$d/%2$d)</string>
+
+    <string name="warningOffline">Operando em modo offline</string>
+    <string name="warningPermission">A permissão de acesso a internet é necessária para a atualização dos fundos</string>
+
+    <string name="errorRequest">Não foi possível completar a requisição, por favor tente de novo mais tarde</string>
+    <string name="errorException">Um erro inesperado ocorreu</string>
+    <string name="errorEmpty">Nenhum dado foi encontrado</string>
+    <string name="errorViewType">Não foi possivel determinar o tipo do item</string>
+    <string name="errorWithoutPermission">Permissão recusada</string>
+    <string name="errorPermission">O acesso a internet é necessário, o aplicativo será encerrado</string>
+
+    <string name="descriptionLogo">Logo da empresa</string>
+
+    <string name="loremIpsumIncome"><b>9,63%</b> (12M)</string>
+    <string name="loremIpsumMinimumApplication"><b>Aplicação mínima<br/>R$ 5.000</b></string>
+    <string name="loremIpsumfundName">Sparta Debêntures Incentivadas FIRF CP</string>
+</resources>
